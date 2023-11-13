@@ -1,0 +1,29 @@
+h1{ color: blue; 
+    font-family: "Times New Roman"}
+    
+img{ border-radius: 50%;}
+    
+body{
+    background-color: #F3E8FF;
+}
+
+hr{
+    height: 5px;
+    background-color: plum;
+}
+
+.topnav{
+    text-align: center;
+    padding: 3% 3% 3% 3%;
+    margin: 8px 22px 8px 22px
+}
+
+.topnav a {
+    text-align: center;
+    padding: 3% 3% 3% 3%;
+    margin: 8px 22px 8px 22px
+}
+
+.align {
+    padding-left: 2%;
+}
