@@ -27,3 +27,19 @@ hr{
 .align {
     padding-left: 2%;
 }
+
+a:link, a:visited {
+    color: #8e8e8e;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+a:hover {
+    color: #333333;
+}
+
+a:active {
+    color: #333333;
+}
