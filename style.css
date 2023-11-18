@@ -1,5 +1,10 @@
 h1{ color: black; 
+    font-size: 40px;
     font-family: "Times New Roman"}
+
+p{
+    font-size:  15px;
+}
 
 body{
     background-color: white;
@@ -8,6 +13,32 @@ body{
 hr{
     height: 2px;
     background-color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+button{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    padding: 1.5%;
+    justify-content: center;
+}
+
+
+.container {
+    display: flex;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    align-items: center;
+}
+
+.container2 {
+    display: flex;
+    padding-left: 10%;
+    align-items: center;
 }
 
 .topnav{
@@ -22,13 +53,8 @@ hr{
     margin: 8px 22px 8px 22px
 }
 
-.align {
-    padding-left: 2%;
-}
-
 .padding {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 5% 10% 5% 10%;
 }
 
 /* links */
@@ -44,11 +70,37 @@ a:hover {
     color: #333333;
 }
 
+/*alignment */
 .row {
     display: flex;
 }
   
 .column {
-    flex: 33.33%;
+    float: left;
+    width: 33.33%;
     padding: 5px;
+}
+
+.split {
+    padding-left: 20px;
+}
+
+#split-right {
+    margin: 10px 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    float: right;
+    
+}
+
+@media (max-width: 920px) {
+    .container {
+      flex-direction: column;
+    }
+    .split{
+      padding-left: 0px;
+    }
+    .column {
+        width: 100%;
+    }
 }
