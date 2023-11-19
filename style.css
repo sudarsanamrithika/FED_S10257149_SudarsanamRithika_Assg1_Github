@@ -148,19 +148,3 @@ a:hover {
 #split-right {
     margin-left: 20px;
 }
-
-@media screen and (max-width: 500px) {
-    .container {
-      flex-direction: column;
-    }
-    .split{
-      padding-left: 0px;
-    }
-    .column {
-        width: 100%;
-    }
-    .flex-item {
-        flex: 1 21%;
-        flex-grow: inherit; 
-    }
-}
