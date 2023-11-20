@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 h1{ color: black; 
     font-size: 40px;
     font-family: "Times New Roman"
@@ -14,7 +18,7 @@ p{
 }
 
 .note {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 body{
@@ -35,6 +39,16 @@ button{
     display: flex;
     padding: 1.5%;
     justify-content: center;
+}
+
+.coming-soon {
+    align-items: center;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: beige;
+    border-radius: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 
