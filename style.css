@@ -101,9 +101,10 @@ button{
 
 .container-footer {
     display: flex;
-    padding-left: 10%;
+    padding: 5% 5%;
     flex-wrap: wrap;
     align-items: center;
+    background-color: blue;
 }
 
 .container-cake {
@@ -135,7 +136,7 @@ button{
 .topnav{
     text-align: center;
     padding: 3% 3% 3% 3%;
-    margin: 8px 22px 8px 22px
+    justify-content: center;
 }
 
 .padding {
@@ -155,18 +156,14 @@ a:hover {
     color: #333333;
 }
 
-.column-footer {
-    float: left;
-    width: 33.33%;
-}
-
 .split {
     padding-left: 30px;
 }
 
-#split-right {
-    padding-top: 2.5%;
+#split-right { 
     margin-left: 150px;
+    padding: 5% 2.5%;;
+    background-color: orange;
 }
 
 * {
@@ -179,25 +176,101 @@ a:hover {
     padding: 5px;
 }
 
+.flex-img:hover {
+    transform:scale(1.2)
+}
+
 .row::after {
     content: "";
     clear: both;
     display: table;
 }
 
-.tab {
-    display: inline-block;
-    padding: 10px 20px;
-    cursor: pointer;
-    color: #000; /* Default text color */
-    text-decoration: none;
-  }
+.column-footer {
+    float: left;
+    width: 33.333%;
+    padding: 10px;
+    background-color: aqua;
+}
 
-  .active {
-    color: #4CAF50; /* Change this to the desired text color for the active tab */
+.row-footer::after {
+    content: "";
+    clear: both;
+    display: table;
+    background-color: aquamarine;
+}
+
+.container-pic {
+    position: relative;
+}
+  
+
+.mySlides {
+    display: none;
+}
+  
+cursor {
+    cursor: pointer;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+  
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
   }
+  
+.prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+  
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+.column-order {
+    float: left;
+    width: 16.66%;
+}
+  
+.demo {
+    opacity: 0.6;
+}
+  
+.active,
+.demo:hover {
+    opacity: 1;
+}
 
 @media screen and (max-width: 500px) {
+    .body {
+        align-items: center;
+    }
     .column {
       width: 100%;
     }
@@ -218,13 +291,19 @@ a:hover {
     .split{
       padding-left: 0px;
     }
-    .topnav{
-        text-align: center;
-        padding-top: 2%;
-        padding-bottom: 2%;
-    }
     .flex-item { 
         flex: 1 46%; 
         flex-grow: inherit; 
-      } 
+        padding-left: 10%;
+    }
+    .text {
+        font-size: 10px;
+    }
+    .topnav{
+        text-align: center;
+        padding-right: 20%;
+    }
+    .text-mini{
+        font-size: 10px;
+    }
   }
