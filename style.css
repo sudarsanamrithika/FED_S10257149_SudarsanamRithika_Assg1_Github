@@ -159,9 +159,19 @@ a:hover {
     padding-left: 30px;
 }
 
-#split-right { 
+.split img {
+    width: 400px;
+    height: 400px;
+}
+
+.split-right { 
     margin-left: 150px;
     padding: 5% 2.5%;;
+}
+
+.split-right img {
+    width: 400px;
+    height: 400px;
 }
 
 * {
@@ -173,6 +183,11 @@ a:hover {
     width: 33.33%;
     padding: 5px;
 }
+
+.column img {
+    width: 100%
+}
+
 
 .flex-img:hover {
     transform:scale(1.2)
@@ -194,6 +209,7 @@ a:hover {
     content: "";
     clear: both;
     display: table;
+    align-items: center;
 }
 
 .container-pic {
@@ -243,11 +259,6 @@ cursor {
     top: 0;
 }
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
   
 .column-order {
     float: left;
@@ -268,7 +279,10 @@ cursor {
         align-items: center;
     }
     .column {
-      width: 100%;
+      width: 350px;
+    }
+    .row {
+        align-items: center;
     }
     .container-left {
       flex-direction: column;
@@ -307,7 +321,7 @@ cursor {
       }
       
       /* Style navigation menu links */
-      .topnav a {
+      .topnav-m a {
         color: black;
         padding: 14px 16px;
         text-decoration: none;
@@ -338,10 +352,47 @@ cursor {
         float: left;
         width: 33.333%;
         padding: 10px;
-      }   
+      } 
+      .column-footer img {
+        width: 32px;
+        height: 32px;
+      }  
       .row-footer::after {
         content: "";
         clear: both;
         display: table;
+        align-items: center;
       }
+      .coming-soon {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        align-items: center;
+        font-size: 75px;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: beige;
+        border-radius: 5%;
+    }
+    .split {
+        margin-left: 2%;
+        margin-right: 2.5%;
+        padding: 0px 2.5% 7% 2.5%;
+        align-items: center;
+    }
+    .split img {
+        width: 350px;
+        height: 350px;
+    }
+    
+    .split-right { 
+        margin-left: 2%;
+        margin-right: 2.5%;
+        padding: 0px 2.5% 7% 2.5%;
+        align-items: center;
+    }
+    
+    .split-right img {
+        width: 350px;
+        height: 350px;
+    }
+    
   }
