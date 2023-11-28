@@ -302,6 +302,7 @@ cursor {
     .topnav {
         overflow: hidden;;
         position: relative;
+        padding-right: 10%;
       }
       
       /* Hide the links inside the navigation menu (except for logo/home) */
@@ -321,14 +322,15 @@ cursor {
       /* Style the hamburger menu */
       .topnav a.icon {
         display: block;
+        background-color: #8e8e8e;
         position: absolute;
-        right: 0;
+        left: 0;
         top: 0;
       }
       
       /* Add a grey background color on mouse-over */
       .topnav a:hover {
-        background-color: #333333;
+        background-color: #d4d4d4;
       }
       
       /* Style the active link (or home/logo) */
