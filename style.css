@@ -104,7 +104,6 @@ button{
     padding: 5% 5%;
     flex-wrap: wrap;
     align-items: center;
-    background-color: blue;
 }
 
 .container-cake {
@@ -163,7 +162,6 @@ a:hover {
 #split-right { 
     margin-left: 150px;
     padding: 5% 2.5%;;
-    background-color: orange;
 }
 
 * {
@@ -190,14 +188,12 @@ a:hover {
     float: left;
     width: 33.333%;
     padding: 10px;
-    background-color: aqua;
 }
 
 .row-footer::after {
     content: "";
     clear: both;
     display: table;
-    background-color: aquamarine;
 }
 
 .container-pic {
@@ -337,5 +333,15 @@ cursor {
       .active {
         background-color: #04AA6D;
         color: white;
+      }
+      .column-footer {
+        float: left;
+        width: 33.333%;
+        padding: 10px;
+      }   
+      .row-footer::after {
+        content: "";
+        clear: both;
+        display: table;
       }
   }
