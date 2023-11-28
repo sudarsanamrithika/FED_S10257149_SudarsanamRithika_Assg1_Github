@@ -184,6 +184,12 @@ a:hover {
     padding: 5px;
 }
 
+.column-2 {
+    float: left;
+    width: 33.33%;
+    padding: 5% 10%;
+}
+
 .column img {
     width: 100%
 }
@@ -219,6 +225,8 @@ a:hover {
 
 .mySlides {
     display: none;
+    width: 500px;
+    height: 500px
 }
   
 cursor {
@@ -264,6 +272,15 @@ cursor {
     float: left;
     width: 16.66%;
 }
+
+.column-order img {
+    width: 50px;
+    height: 50px
+}
+
+.row-order {
+    padding-left: 5%;
+}
   
 .demo {
     opacity: 0.6;
@@ -294,9 +311,18 @@ cursor {
         padding-left: 14%;
         align-items: center;
     }
+
+    .container-order{
+        flex-direction: column;
+        padding-left: 10%;
+        align-items: center;
+    }
     
     .text-left {
         padding-left: 3%;
+    }
+    .text-big {
+        font-size: 10%;
     }
     .split{
       padding-left: 0px;
@@ -394,5 +420,17 @@ cursor {
         width: 350px;
         height: 350px;
     }
-    
+    h2 {
+        font-size: 20px;
+    }
+    .mySlides {
+        display: none;
+        width: 200px;
+        height: 200px
+    }
+    .column-order img {
+        width: 50px;
+        height: 50px
+    }
+      
   }
