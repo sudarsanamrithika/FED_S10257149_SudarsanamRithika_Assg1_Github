@@ -184,12 +184,6 @@ a:hover {
     padding: 5px;
 }
 
-.column-2 {
-    float: left;
-    width: 33.33%;
-    padding: 5% 10%;
-}
-
 .column img {
     width: 100%
 }
