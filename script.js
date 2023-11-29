@@ -1,12 +1,12 @@
+
+// to make slideshow gallery
 let slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
@@ -29,6 +29,7 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
 
+// hamburger menu :3
 function myFunction() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {

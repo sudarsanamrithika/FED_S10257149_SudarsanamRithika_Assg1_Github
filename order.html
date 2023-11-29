@@ -4,6 +4,7 @@
 
 <head>
   <link rel = "stylesheet" href = "style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="script.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +17,8 @@
     <div class = "topnav">
       <center><h1>FakeCake</h1></center>
       <hr>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i></a>
       <div id="myLinks">
         <a href="index.html">Home</a>
         <a href = "cake.html">Cake</a>
@@ -24,8 +27,7 @@
         <a href="seasonal.html">Seasonals</a>
         <a href="custom-order.html">Custom Orders</a>
       </div>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
+      
       </a>
     </div>
   </ul>
@@ -49,9 +51,6 @@
               <div class="numbertext">3 / 3</div>
                 <img src="cake_img/blue-cake.jpg">
             </div>
-
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
             <!-- Thumbnail images -->
             <center>
@@ -85,6 +84,7 @@
 
 <footer>
   <hr>
+  <div class="footer-text">
   <div class="row">
     <div class="column">
       <center><b>Follow Us!</b></center>
@@ -139,4 +139,5 @@
       </center>
     </div>
   </div>
+</div>
 </footer>
