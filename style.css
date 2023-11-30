@@ -187,6 +187,7 @@ a:hover {
     width: 33.33%;
     padding: 5px;
     padding-top: 3%;
+    justify-content: center;
 }
 
 .column img {
