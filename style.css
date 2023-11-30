@@ -10,7 +10,7 @@ h1{ color: black;
     }
 
 h2 {
-    color: black;
+    color: #333333;
     font:35px;
     font-family: "Times New Roman"
 }
@@ -32,10 +32,6 @@ hr{
     background-color: black;
     margin-left: 10%;
     margin-right: 10%;
-}
-
-a:active-tab {
-    color: #333333;
 }
 
 button{
@@ -90,11 +86,11 @@ button{
 
 .text-left {
     padding-left: 10%;
+    padding-right: 10%;
     flex: 1;
 }
 
 .text-big {
-    padding-left: 5%;
     padding-right: 5%;
     flex: 1;
 }
@@ -160,7 +156,7 @@ a:hover {
 
 .split img {
     width: 400px;
-    height: 400px;
+    height: 500px;
 }
 
 .split-right { 
@@ -170,7 +166,16 @@ a:hover {
 
 .split-right img {
     width: 400px;
-    height: 400px;
+    height: 500px;
+}
+
+.split-cake {
+    padding-left: 10%;
+}
+
+.split-cake img {
+    width: 400px;
+    height: 450px;
 }
 
 * {
@@ -308,7 +313,15 @@ a:hover {
 .dropdown:hover .dropbtn {color: #333333;}
 
 @media screen and (max-width: 500px) {
-    
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 15px;
+    }
     .body {
         align-items: center;
     }
@@ -321,13 +334,17 @@ a:hover {
     }
     .container-left {
       flex-direction: column;
-      padding-left: 1.2%;
+      padding-left: 1%;
       align-items: center;
     }
     .container-right{
         flex-direction: column;
         padding-left: 14%;
         align-items: center;
+    }
+
+    .mobile-text {
+        font-size: 13px;
     }
 
     .container-order{
@@ -340,6 +357,7 @@ a:hover {
     
     .text-left {
         padding-left: 3%;
+        padding-right: 3%;
     }
     .text-big {
         padding-right: 15%;
@@ -424,9 +442,16 @@ a:hover {
         padding: 0px 2.5% 7% 2.5%;
         align-items: center;
     }
-    .split img {
+
+    .split-cake {
+        margin-left: 2%;
+        margin-right: 2.5%;
+        padding: 0px 2.5% 7% 2.5%;
+    }
+
+    .split-cake img {
         width: 350px;
-        height: 350px;
+        height: 400px;
     }
     
     .split-right { 
@@ -438,11 +463,9 @@ a:hover {
     
     .split-right img {
         width: 350px;
-        height: 350px;
+        height: 450px;
     }
-    h2 {
-        font-size: 20px;
-    }
+    
     .mySlides {
         height: 400px;
         padding-left: 10%;
@@ -457,17 +480,23 @@ a:hover {
         height: 50px
     }
 
-    #textarea {
-        width:200px; 
-        height:200px;
-    }
-
     .footer-text {
         align-items: center;
         font-size: 10px;
         padding-left: 3%;
     }
+
+    .note {
+        font-size: 8px;
+    }
+
     .row-order {
+        padding-top: 5%;
         padding-left: 25%;
     }
+    .flex-info { 
+        text-align: center;
+        margin-top: auto; 
+        font-size: 13px;
+    } 
 }
