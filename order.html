@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 
 <head>
   <link rel = "stylesheet" href = "style.css">
@@ -8,14 +7,20 @@
   <script src="script.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <title>Order Page: Champagne Cake</title>
+  <style>
+    .mobile-text {
+        text-align: left;
+    }
+  </style>
 </head>
 
-<nav>
-  <ul>
-    
+
+
+<body>
+  <nav>    
     <div class = "topnav">
-      <center><h1>FakeCake</h1></center>
+      <h1>FakeCake</h1>
       <hr>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i></a>
@@ -26,46 +31,39 @@
         <a href="tarts.html">Tarts</a>
         <a href="seasonal.html">Seasonals</a>
         <a href="custom-order.html">Custom Orders</a>
-      </div>
-      
-      </a>
+      </div>   
     </div>
-  </ul>
-</nav>
-
-<body>
+  </nav>
     <div class="container-order">
       <div class="split-cake">
             <!-- Full-width images with number text -->
             <div class="mySlides">
               <div class="numbertext">1 / 3</div>
-                <img src="cake_img/champagne.jpg">
+                <img src="cake_img/champagne.jpg" alt="Champagne Cake 1">
             </div>
           
             <div class="mySlides">
               <div class="numbertext">2 / 3</div>
-                <img src="cake_img/champagne2.jpg">
+                <img src="cake_img/champagne2.jpg" alt="Champagne Cake 2">
             </div>
           
             <div class="mySlides">
               <div class="numbertext">3 / 3</div>
-                <img src="cake_img/champagne3.jpg">
+                <img src="cake_img/champagne3.jpg" alt="Champage Cake 3">
             </div>
 
             <!-- Thumbnail images -->
-            <center>
             <div class="row-order">
               <div class="column-order">
-                <img class="demo cursor" src="cake_img/champagne.jpg" onclick="currentSlide(1)">
+                <img class="demo cursor" src="cake_img/champagne.jpg" alt="Champage Cake 3" onclick="currentSlide(1)">
               </div>
               <div class="column-order">
-                <img class="demo cursor" src="cake_img/champagne2.jpg" onclick="currentSlide(2)">
+                <img class="demo cursor" src="cake_img/champagne2.jpg" alt="Champage Cake 3" onclick="currentSlide(2)">
               </div>
               <div class="column-order">
-                <img class="demo cursor" src="cake_img/champagne3.jpg" onclick="currentSlide(3)">
+                <img class="demo cursor" src="cake_img/champagne3.jpg" alt="Champage Cake 3" onclick="currentSlide(3)">
               </div>
             </div>
-          </center>
         </div>
       
         <div class="text-big">
@@ -87,15 +85,13 @@
           </div>
         </div>
       </div>
-    </div>
-</body>
-
-<footer>
+    
+  <footer>
   <hr>
   <div class="footer-text">
   <div class="row">
     <div class="column">
-      <center><b>Follow Us!</b></center>
+      <b>Follow Us!</b>
         <div class="row-footer">
           <div class="column-footer">
             <a href="socmed.html">
@@ -118,22 +114,19 @@
     </div>
     
     <div class="column">
-      <center>
-        <b>Contact Information!</b><br>
-          Call 123456789 or email* fakecake@gmail.com!<br>
-          <div class="note">
-            <em>*emails may take up to 1 working day to respond!</em>
-          </div>
-          <p></p>
-            Opening Hours<br>
-            Mon, Tues, Thurs, Fri: 10am-9pm<br>
-            Wed: CLOSED<br>
-            Sat, Sun: 11am-9pm
-        </center>
+      <b>Contact Information!</b><br>
+        Call 123456789 or email* fakecake@gmail.com!<br>
+        <div class="note">
+          <em>*emails may take up to 1 working day to respond!</em>
+        </div>
+        <p></p>
+          Opening Hours<br>
+          Mon, Tues, Thurs, Fri: 10am-9pm<br>
+          Wed: CLOSED<br>
+          Sat, Sun: 11am-9pm
     </div>
 
     <div class="column">
-      <center>
       <b>Subscribe!</b>
       <p></p>
       <input type="email" placeholder="email"><br>
@@ -143,8 +136,9 @@
       <button>Submit</button>
       <p></p>
       <p></p>
-      </center>
     </div>
   </div>
 </div>
-</footer>
+  </footer>
+</body>
+

@@ -45,7 +45,7 @@ button{
 }
 
 .coming-soon {
-    align-items: center;
+    text-align: center;
     font-size: 100px;
     font-family: 'Courier New', Courier, monospace;
     background-color: beige;
@@ -187,7 +187,9 @@ a:hover {
     width: 33.33%;
     padding: 5px;
     padding-top: 3%;
+    padding-bottom: 3%;
     justify-content: center;
+    text-align: center;
 }
 
 .column img {
@@ -265,6 +267,10 @@ a:hover {
 .active,
 .demo:hover {
     opacity: 1;
+}
+
+.mobile-text {
+    text-align: center;
 }
 
 .topnav a.icon {
@@ -346,6 +352,7 @@ a:hover {
 
     .mobile-text {
         font-size: 13px;
+        text-align: center;
     }
 
     .container-order{
