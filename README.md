@@ -9,4 +9,5 @@ Credits:
 Dropdown Menu: https://www.w3schools.com/howto/howto_css_dropdown.asp
 Hamburger Menu For Mobile: https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
 Order Page inspiration: https://www.tairapastry.sg/#/
-Images: 
+About Us and Cake Description: https://chat.openai.com/
+
