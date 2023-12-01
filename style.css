@@ -44,6 +44,12 @@ button{
     border: none;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .coming-soon {
     text-align: center;
     font-size: 100px;
@@ -340,6 +346,7 @@ a:hover {
     .column {
         padding-top: 3%;
         width: 100%;
+        align-items: center;
     }
     .row {
         align-items: center;
