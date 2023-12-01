@@ -329,6 +329,11 @@ a:hover {
     h4 {
         font-size: 15px;
     }
+
+    .text-right {
+        flex: 1;
+    }
+
     .body {
         align-items: center;
     }
@@ -385,7 +390,6 @@ a:hover {
     .topnav {
         overflow: hidden;;
         position: relative;
-        padding-right: 10%;
     }
       
       /* Hide the links inside the navigation menu (except for logo/home) */
